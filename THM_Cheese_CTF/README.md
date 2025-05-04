@@ -3,7 +3,7 @@
 
 ## Difficulty - Easy
 
-![cheeseCTF_logo](./screenshots/CheeseCTF_logo.png)
+![cheeseCTF_logo](./screenshots/cheeseCTF_logo.png)
 
 ---
 

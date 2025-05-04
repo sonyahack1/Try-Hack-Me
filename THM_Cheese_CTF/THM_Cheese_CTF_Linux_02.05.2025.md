@@ -161,8 +161,8 @@ username=admin&password=password
 
 > I open the **messages.html** page and see a link to the **message!** script. I follow it and there is an empty html page, but i am interested in the url address.
 
-![messages_1](./screenshots/message_1.png)
-![messages_1](./screenshots/message_2.png)
+![messages_1](./screenshots/messages_1.png)
+![messages_1](./screenshots/messages_2.png)
 
 
 > Ok. I'm intercepting this request in BurpSuite to make it easier for me to work with the url parameter in repeater:
