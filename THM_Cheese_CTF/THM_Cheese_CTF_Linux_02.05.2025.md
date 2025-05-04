@@ -161,8 +161,8 @@ username=admin&password=password
 
 > I open the **messages.html** page and see a link to the **message!** script. I follow it and there is an empty html page, but i am interested in the url address.
 
-![message_1](./screenshots/message_1.png)
-![message_1](./screenshots/message_2.png)
+![messages_1](./screenshots/message_1.png)
+![messages_1](./screenshots/message_2.png)
 
 
 > Ok. I'm intercepting this request in BurpSuite to make it easier for me to work with the url parameter in repeater:
@@ -333,7 +333,7 @@ GET /secret-script.php?file=../../../../../../etc/passwd HTTP/1.1
 
 > Result:
 
-![passwd_file](./screenshots/passwd_file)
+![passwd_file](./screenshots/passwd_file.png)
 
 > LFI is work. I get a passwd file and i see **'comte'** user.
 
