@@ -227,7 +227,7 @@ sudo hashcat -m 100 hash.txt /usr/share/wordlists/rockyou.txt --force
 
 ![message_source](./screenshots/message_source.png)
 
-![script_source](./screenshots/script_source.png)
+![source_script](./screenshots/source_script.png)
 
 > something like that. There is a message left as a comment ```Barry, you can now SSH in using your key!```
 > That is there is a certain **Barry** in the system and he can connect to the system using his SSH key. Ok.
@@ -325,7 +325,7 @@ doc = parseString(xml)
 
 ![XXE_payload](./screenshots/XXE_payload.png)
 
-![xxe](https://portswigger.net/web-security/xxe)
+[XXE payload](https://portswigger.net/web-security/xxe)
 
 > I make the same message structure as in the **dontforget.bak** file. Also, I need to apply url encoding. For convenience, I use the extension
 > in BurpSuite - **Hackvertor** and wrap my payload in ```<@urlencode></@urlencode>```:
@@ -569,7 +569,7 @@ barry@mustacchio:~$ echo $PATH
 > I run **live_log** . When executed the program will execute my **tail** file first with root privileges then
 > copy **/bin/bash** to **/tmp** directory and set the **setuid** flag to preserve root privileges.
 
-![root_bash](.screenshots/root_bash.png)
+![root_bash](./screenshots/root_bash.png)
 
 > I run the copied shell with the **-p** flag to save all settings with root privileges
 > I get the root flag.
