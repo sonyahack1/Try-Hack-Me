@@ -1,6 +1,8 @@
 
 # TryHackMe Writeups
 
+<img src="./screenshots/logo.png" alt="Logo"/>
+
 This repository contains my personal writeups for rooms completed on [TryHackMe](https://tryhackme.com/).
 Each writeup includes tools used, techniques applied, key takeaways, and post-exploitation notes when applicable.
 
