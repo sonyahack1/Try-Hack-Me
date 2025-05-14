@@ -18,13 +18,13 @@
 
 ## Summary
 
-| Stage         | Info                                                            	  	 |
-|---------------|--------------------------------------------------------------------------------|
-| Entry Point   | **users.bak** file in **custom/** directory                     	  	 |
-| User Flag     | `flag{62d77a4d5f97d47c5aa38b3b2651b831}`                        	  	 |
-| Root Flag     | `flag{3223581420d906c4dd1a5f9b530393a5}`                        	  	 |
-| Credentials   |  1) admin panel: **admin**:**bulldog19**			  	 	 |
-|		|  2) Barry: **ssh via private key** ; passphrase: **urieljames** 		 |
+| Stage         | Info                                                       |
+|---------------|------------------------------------------------------------|
+| Entry Point   | `users.bak` file in `custom/` directory                    |
+| User Flag     | `flag{62d77a4d5f97d47c5aa38b3b2651b831}`                   |
+| Root Flag     | `flag{3223581420d906c4dd1a5f9b530393a5}`                   |
+| Credentials   |  1) admin panel: `admin`:`bulldog19`			     |
+|		|  2) Barry: `ssh via private key` ; passphrase: `urieljames`|
 ---
 
 > add ip address in /etc/hosts:
@@ -122,7 +122,7 @@ ffuf -u 'http://mustacchio.thm/FUZZ' -w /usr/share/wordlists/dirbuster/directory
 
 ![custom_js](./screenshots/custom_js.png)
 
-> I see here **users.bak** - its our **entry point**.
+> I see here `users.bak` - its our **Entry Point**.
 
 ---
 ## Entry Point
@@ -204,6 +204,9 @@ Analyzing '1868e36a6d2b17d4c2745f1659433a54d4bc5f4b'
 [+] Skein-512(160)
 --End of file 'hash.txt'-- 
 
+```
+
+```bash
 
 sudo hashcat -m 100 hash.txt /usr/share/wordlists/rockyou.txt --force
 
@@ -235,9 +238,7 @@ sudo hashcat -m 100 hash.txt /usr/share/wordlists/rockyou.txt --force
 > There is also another **.bak** file specified in the tags ```<script></script>```:
 
 ```none
-
 /auth/dontforget.bak
-
 ```
 
 > Download **dontforget.bak** file and checking his type:
@@ -294,7 +295,7 @@ xml=sonyahack1
 ```
 ### XXE exploitation
 
-> I see that the POST request is sent with a body in which the **xml** parameter sends an **XML fragment**.
+> I see that the **POST** request is sent with a body in which the **xml** parameter sends an **XML fragment**.
 > That is any comment sent in this form has the **xml** structure.
 
 > There may be an **XXE vulnerability** if the server side parses this parameter as an XML document and allows external entities.
@@ -363,7 +364,7 @@ ssh -i private_key barry@10.10.124.65
 Enter passphrase for key 'private_key':
 
 ```
-> i need the passphrase...
+> I need the passphrase...
 
 > I extract the hash of the passphrase from the private key and pass it through **john**:
 
@@ -390,9 +391,9 @@ urieljames       (private_key)
 
 ```
 
-> i get passphrase for private key: **urieljames**
+> I get passphrase for private key: `urieljames`
 
-> i connect via ssh and get first flag:
+> I connect via ssh and get first flag:
 
 ```bash
 
