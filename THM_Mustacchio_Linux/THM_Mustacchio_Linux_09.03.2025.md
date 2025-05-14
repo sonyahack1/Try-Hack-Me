@@ -503,7 +503,7 @@ BuildID[sha1]=6c03a68094c63347aeb02281a45518964ad12abe, for GNU/Linux 3.2.0, not
 ```
 > I see that this is logging of actions on the **Mustacchio** website: clicking on links, loading pages, sending forms, any activity etc.
 
-> I'll look through **strings** all readable ASCII or UTF-8 strings that are in this executable file to understand how it works:
+> I'll look through `strings` all readable ASCII or UTF-8 strings that are in this executable file to understand how it works:
 
 ```bash
 
@@ -515,7 +515,7 @@ strings /home/joe/live_log
 
 ![strings_tail](./screenshots/strings_tail.png)
 
-> In this case, the command **tail -f /var/log/nginx/access.log** will output the last lines from the **access** log when logging actions.
+> In this case, the command `tail -f /var/log/nginx/access.log` will output the last lines from the **access** log when logging actions.
 
 > The problem is that the command for this executable file is written **without specifying the absolute path** - that is not **/usr/bin/tail**.
 > this is the right vector for **privilege escalation**
@@ -555,7 +555,7 @@ barry@mustacchio:~$ chmod +x tail
 
 ```
 
-> I replace the path of the environment variable $PATH and write the path to my **tail** file at the beginning:
+> I replace the path of the environment variable **$PATH** and write the path to my **tail** file at the beginning:
 
 ```bash
 
@@ -572,7 +572,7 @@ barry@mustacchio:~$ echo $PATH
 
 ![root_bash](./screenshots/root_bash.png)
 
-> I run the copied shell with the **-p** flag to save all settings with root privileges
+> I run the copied shell with the `-p` flag to save all settings with root privileges
 > I get the root flag.
 
 ```bash
