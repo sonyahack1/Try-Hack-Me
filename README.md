@@ -28,4 +28,7 @@ Each room is organized into its own folder:
 
 ## Contribute or Discuss
 
-Spotted a mistake? Got a better way to solve a room? Open a pull request or drop an issue!
+Spotted a mistake? Have suggestions or want to discuss something?
+
+I'm always open to feedback and collaboration!
+Reach out via [Twitter](https://x.com/sonyaflower995).
