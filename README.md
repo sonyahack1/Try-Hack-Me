@@ -1,7 +1,10 @@
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=F70000&center=true&vCenter=true&width=435&lines=%F0%9D%97%A7%F0%9D%97%BF%F0%9D%98%86%F0%9D%97%9B%F0%9D%97%AE%F0%9D%97%B0%F0%9D%97%B8%F0%9D%97%A0%F0%9D%97%B2+%F0%9D%97%AA%F0%9D%97%BF%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%B2%F0%9D%98%82%F0%9D%97%BD%F0%9D%98%80" alt="Typing SVG" /></a>
+</div>
 
-# TryHackMe Writeups
-
-<img src="./screenshots/logo.png" alt="Logo"/>
+<p align="center">
+  <img src="./screenshots/logo.png" alt="Logo"/>
+</p>
 
 This repository contains my personal writeups for rooms completed on [TryHackMe](https://tryhackme.com/).
 Each writeup includes tools used, techniques applied, key takeaways, and post-exploitation notes when applicable.
