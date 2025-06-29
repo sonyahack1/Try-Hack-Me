@@ -14,6 +14,7 @@ Periodically I will return to the laboratories and machines I have completed and
 
 Each room is organized into its own folder:
 
+---
 <h1 align="center">⚠️ Disclaimer ⚠️</h1>
 
 > [!IMPORTANT]
