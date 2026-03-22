@@ -57,9 +57,9 @@
 <table width="100%" border="1" cellpadding="6" cellspacing="0">
   <thead>
     <tr>
-      <th>Tactics</th>
-      <th>Techniques</th>
-      <th>Description</th>
+      <th width="18%">Tactics</th>
+      <th width="40%">Techniques</th>
+      <th width="42%">Description</th>
     </tr>
   </thead>
   <tbody>
