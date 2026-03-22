@@ -92,7 +92,7 @@
   </tr>
 
   <tr>
-    <td rowspan="2" align="left"><b>TA0006 - Credential Access</b></td>
+    <td rowspan="3" align="left"><b>TA0006 - Credential Access</b></td>
     <td align="left"><b>T1110.001 - Brute Force: Password Guessing</b></td>
     <td>Brute-force attack on wp-login.php to gain access to the admin panel</td>
   </tr>
