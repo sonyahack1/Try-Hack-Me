@@ -241,7 +241,7 @@ sudo nmap -p22,80,443 -sVC 10.80.150.182 -oN service_scan.txt
  <img src="./screenshots/web.png" alt="web" />
 </p>
 
-### fuzz
+### fuzzing / first flag
 
 > We can enter the suggested commands, but we won’t find anything interesting or useful there. So let’s move on with our exploration and start `fuzzing`:
 
