@@ -57,9 +57,9 @@
 <table width="100%" border="1" cellpadding="6" cellspacing="0">
   <thead>
     <tr>
-      <th style="min-width: 250px; white-space: nowrap;">Tactics</th>
+      <th>Tactics</th>
       <th>Techniques</th>
-      <th>Description</th>
+      <th style="min-width: 250px; white-space: nowrap;">Description</th>
     </tr>
   </thead>
   <tbody>
