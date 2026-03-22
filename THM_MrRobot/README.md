@@ -12,7 +12,7 @@
 
 ---
 
-<div align="center">
+<div>
 
 🔎 In this engagement, the target system `Mr Robot CTF` was fully compromised.
 
