@@ -44,7 +44,7 @@
 - [unsecured credentials (file)](#unsecured-credentials)
 - [data exfiltrate](#data-exfiltration)
 - [crack md5 hash](#horizontal-privesc)
-- [Horizontal PrivEsc (local account) / second flag](#horizontal-privesc)
+- [Horizontal PrivEsc (local account) / second flag](#horizontal-privesc--second-flag)
 - [files enumeration](#files-enumeration-suid)
 - [Vertical PrivEsc (SUID)](#vertical-privesc)
 - [root flag](#root-flag)
