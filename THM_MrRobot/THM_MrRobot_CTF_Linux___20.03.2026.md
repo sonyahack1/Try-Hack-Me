@@ -88,7 +88,7 @@
   <tr>
     <td rowspan="2" align="left"><b>TA0004 - Privilege Escalation</b></td>
     <td align="left"><b>T1548.001 - Abuse Elevation Control Mechanism: Setuid and Setgid</b></td>
-    <td>Exploiting an executable <b>nmap</b> file with SUID set</td>
+    <td>Abusing an nmap executable with the SUID bit set to obtain a root shell</td>
   </tr>
   <tr>
     <td align="left"><b>T1078.003 - Valid Accounts: Local Accounts</b></td>
@@ -108,7 +108,7 @@
   </tr>
   <tr>
     <td align="left"><b>T1552.001 - Unsecured Credentials: Credentials In Files</b></td>
-    <td>the hash of the <b>robot</b> user's password in their home directory</td>
+    <td>An unsalted MD5 password hash for the robot user was stored in the user's home directory</td>
   </tr>
 
   <tr><td colspan="3" height="10"></td></tr>
@@ -116,7 +116,7 @@
   <tr>
     <td rowspan="2" align="left"><b>TA0007 - Discovery</b></td>
     <td align="left"><b>T1046 - Network Service Discovery</b></td>
-    <td>nmap scanning and fuzzing</td>
+    <td>Port scanning and wordlist-based discovery of exposed web resources</td>
   </tr>
   <tr>
     <td align="left"><b>T1083 - File and Directory Discovery</b></td>
