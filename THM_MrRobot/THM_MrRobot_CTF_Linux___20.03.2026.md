@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td align="left" ><b>📊 Difficulty</b></td>
-    <td>Medium</td>
+    <td>Medium 🟡</td>
   </tr>
   <tr>
     <td align="left" ><b>📁 Category</b></td>
