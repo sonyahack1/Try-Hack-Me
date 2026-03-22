@@ -59,7 +59,7 @@
     <tr>
       <th>Tactics</th>
       <th>Techniques</th>
-      <th style="min-width: 250px; white-space: nowrap;">Description</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody>
