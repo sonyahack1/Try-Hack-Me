@@ -1,4 +1,4 @@
----
+
 <div align="center">
 
 <img src="./screenshots/tryhackme-icon.svg" alt="logo" width="120"/>
