@@ -46,8 +46,7 @@
 - [crack md5 hash](#horizontal-privesc)
 - [Horizontal PrivEsc (local account) / second flag](#horizontal-privesc--second-flag)
 - [files enumeration](#files-enumeration-suid)
-- [Vertical PrivEsc (SUID)](#vertical-privesc)
-- [root flag](#root-flag)
+- [Vertical PrivEsc (SUID) / root flag](#vertical-privesc)
 
 ---
 
@@ -573,7 +572,7 @@ find / -user root -perm -4000 -exec ls -ldb {} \; 2>/dev/null
  <img src="./screenshots/gtfobins_nmap.png" alt="gtfobins_nmap" />
 </p>
 
-### vertical PrivEsc
+### vertical PrivEsc / root flag
 
 > The SUID-enabled `nmap` binary was leveraged to achieve privilege escalation and obtain `root-level access`:
 
