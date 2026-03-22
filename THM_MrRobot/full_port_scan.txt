@@ -1,0 +1,12 @@
+# Nmap 7.98 scan initiated Fri Mar 20 15:01:06 2026 as: /usr/lib/nmap/nmap -p- -vv -n -T5 --min-rate=1000 -oN full_port_scan.txt 10.80.131.242
+Nmap scan report for 10.80.131.242
+Host is up, received reset ttl 62 (0.064s latency).
+Scanned at 2026-03-20 15:01:06 EDT for 73s
+Not shown: 65532 filtered tcp ports (no-response)
+PORT    STATE SERVICE REASON
+22/tcp  open  ssh     syn-ack ttl 62
+80/tcp  open  http    syn-ack ttl 62
+443/tcp open  https   syn-ack ttl 62
+
+Read data files from: /usr/share/nmap
+# Nmap done at Fri Mar 20 15:02:19 2026 -- 1 IP address (1 host up) scanned in 73.49 seconds
