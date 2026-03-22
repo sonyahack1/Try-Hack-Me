@@ -40,13 +40,13 @@
 - [first flag](#first-flag)
 - [Brute Force wp-login.php](#brute-force-wp-login)
 - [Theme Editor (WordPress)](#theme-editor)
-- [netcat C2](#netcat-c2)
+- [reverse shell (C2)](#reverse-shell)
 - [unsecured credentials (file)](#unsecured-credentials)
-- [MD5 hash exfiltration](#data-exfiltration)
+- [MD5 hash exfiltration](#md5-hash-exfiltration)
 - [crack md5 hash](#horizontal-privesc)
 - [Horizontal PrivEsc (local account) / second flag](#horizontal-privesc--second-flag)
 - [files enumeration](#files-enumeration-suid)
-- [Vertical PrivEsc (SUID) / root flag](#vertical-privesc)
+- [Vertical PrivEsc (SUID) / root flag](#vertical-privesc--root-flag)
 
 ---
 
@@ -587,8 +587,6 @@ uid=0(root) gid=0(root) groups=0(root),1002(robot)
 #
 
 ```
-
-### root flag
 
 > We get the root flag from the `/root` directory:
 
