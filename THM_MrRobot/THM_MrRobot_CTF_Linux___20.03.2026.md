@@ -144,7 +144,7 @@
    <tr>
       <td align="left"><b>TA0010 - Exfiltration</b></td>
       <td align="left"><b>T1048.003 - Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol</b></td>
-      <td>The file containing the MD5 hash of the user's password was exfiltrated from the target system for offline analysis.</td>
+      <td>The file containing the MD5 hash of the user's password was exfiltrated from the target system</td>
    </tr>
 
   </tbody>
@@ -610,8 +610,4 @@ firstboot_done	key-3-of-3.txt
 
 </div>
 
-> Machine is pwned.
-
-<p align="center">
-  <img src="./screenshots/fsociety.jpg" alt="fsociety"/>
-</p>
+> System is pwned.
