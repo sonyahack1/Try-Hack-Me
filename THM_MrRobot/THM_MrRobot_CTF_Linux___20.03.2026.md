@@ -35,8 +35,8 @@
 ## Attack Flow
 
 - [openVPN](#openvpn)
-- [nmap scan](#nmap-scan)
-- [fuzzing / first flag](#fuzz)
+- [scanning](#scanning)
+- [fuzzing / first flag](fuzzing--first-flag)
 - [Brute Force wp-login.php](#brute-force-wp-login)
 - [Theme Editor (WordPress)](#theme-editor)
 - [reverse shell (C2)](#reverse-shell)
@@ -206,7 +206,7 @@ sudo openvpn eu-central-1-sonyahack1-regular.ovpn
  <img src="./screenshots/ovpn_connect.png" alt="ovpn_connect" />
 </p>
 
-### nmap scan
+### scanning
 
 > We scan the target within the network and determine open ports/services:
 
