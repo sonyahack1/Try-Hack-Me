@@ -34,20 +34,20 @@
 ---
 ## Attack Flow
 
-- [openVPN](#external-remote-services)
-- [nmap scan](#service-discovery)
-- [fuzzing](#service-discovery)
+- [openVPN](#openvpn)
+- [nmap scan](#nmap-scan)
+- [fuzzing](#fuzz)
 - [first flag](#first-flag)
-- [Brute Force wp-login.php](#11-brute-force-login-form)
-- [Theme Editor (WordPress)](#server-software-component)
-- [netcat C2](#Non-Application-Layer-Protocol)
-- [unsecured credentials (file)](#creds-in-files)
-- [data exfiltrate](#)
-- [crack md5 hash](#12-password-cracking-hashcat)
-- [Horizontal PrivEsc (local account)](#%EF%B8%8F--horizontal-privilege-escalation)
+- [Brute Force wp-login.php](#brute-force-wp-login)
+- [Theme Editor (WordPress)](#theme-editor)
+- [netcat C2](#netcat-c2)
+- [unsecured credentials (file)](#unsecured-credentials)
+- [data exfiltrate](#data-exfiltration)
+- [crack md5 hash](#horizontal-privesc)
+- [Horizontal PrivEsc (local account)](#horizontal-privesc)
 - [second flag](#second-flag)
-- [files enumeration](#files-enumeration)
-- [Vertical PrivEsc (SUID)](#%EF%B8%8F--vertical-privilege-escalation)
+- [files enumeration](#files-enumeration-suid)
+- [Vertical PrivEsc (SUID)](#vertical-privesc)
 - [root flag](#root-flag)
 
 ---
@@ -385,7 +385,7 @@ hydra -l ELLIOT -P wordlist.txt 10.80.150.182 http-post-form "/wp-login.php:log=
 > To access the system, we'll use WordPress's legitimate template editing feature. Go to `Appearance` -> `Editor`:
 
 <p align="center">
- <img src="./screenshots/theme_editor" alt="theme_editor" />
+ <img src="./screenshots/theme_editor.png" alt="theme_editor" />
 </p>
 
 > From the list of available templates, select `404 Template`. We'll use this template to gain access to the system:
