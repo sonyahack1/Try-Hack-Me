@@ -40,9 +40,8 @@
 - [Brute Force wp-login.php](#brute-force-wp-login)
 - [Theme Editor (WordPress)](#theme-editor)
 - [reverse shell (C2)](#reverse-shell)
-- [unsecured credentials (file)](#unsecured-credentials)
-- [MD5 hash exfiltration](#md5-hash-exfiltration)
-- [crack md5 hash](#horizontal-privesc)
+- [unsecured credentials / exfiltration](#unsecured-credentials)
+- [Brute-Force md5 hash](#brute-force-md5-hash)
 - [Horizontal PrivEsc (local account) / second flag](#horizontal-privesc--second-flag)
 - [files enumeration](#files-enumeration-suid)
 - [Vertical PrivEsc (SUID) / root flag](#vertical-privesc--root-flag)
@@ -460,7 +459,7 @@ $
 
 ```
 
-### Unsecured credentials
+### Unsecured credentials / exfiltration
 
 > After gaining access to the system, basic enumeration revealed an unsalted `MD5 hash` of the `robot` user's password located in the home directory:
 
@@ -480,9 +479,7 @@ daemon@ip-10-80-150-182:~$
 
 ```
 
-### MD5 hash exfiltration
-
-> The file is exfiltrated to our machine for further brute-force attacks:
+> The file is exfiltrated to our machine for further `brute-force attacks`:
 
 ```bash
 
@@ -496,6 +493,8 @@ listening on [any] 9001 ...
 connect to [192.168.221.187] from (UNKNOWN) [10.80.150.182] 53284
 
 ```
+
+### Brute-Force md5 hash
 
 > The value `c3fcd3d76192e4007dfb496cca67e13b` is an MD5 hash. We perform offline brute-force cracking using the appropriate `hashcat` module:
 
