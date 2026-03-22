@@ -36,8 +36,7 @@
 
 - [openVPN](#openvpn)
 - [nmap scan](#nmap-scan)
-- [fuzzing](#fuzz)
-- [first flag](#first-flag)
+- [fuzzing / first flag](#fuzz)
 - [Brute Force wp-login.php](#brute-force-wp-login)
 - [Theme Editor (WordPress)](#theme-editor)
 - [reverse shell (C2)](#reverse-shell)
@@ -286,8 +285,6 @@ key-1-of-3.txt
 </p>
 
 > But we'll return to the dictionary a little later.
-
-### first flag
 
 > The file `key-1-of-3.txt` contains our `first flag`:
 
