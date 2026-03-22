@@ -36,7 +36,7 @@
 
 - [openVPN](#openvpn)
 - [scanning](#scanning)
-- [fuzzing / first flag](fuzzing--first-flag)
+- [fuzzing / first flag](#fuzzing--first-flag)
 - [Brute Force wp-login.php](#brute-force-wp-login)
 - [Theme Editor (WordPress)](#theme-editor)
 - [reverse shell (C2)](#reverse-shell)
