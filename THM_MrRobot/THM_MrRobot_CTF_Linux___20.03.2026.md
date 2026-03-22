@@ -44,8 +44,7 @@
 - [unsecured credentials (file)](#unsecured-credentials)
 - [data exfiltrate](#data-exfiltration)
 - [crack md5 hash](#horizontal-privesc)
-- [Horizontal PrivEsc (local account)](#horizontal-privesc)
-- [second flag](#second-flag)
+- [Horizontal PrivEsc (local account) / second flag](#horizontal-privesc)
 - [files enumeration](#files-enumeration-suid)
 - [Vertical PrivEsc (SUID)](#vertical-privesc)
 - [root flag](#root-flag)
@@ -70,16 +69,24 @@
       <td align="left"><b>T1133 - External Remote Services</b></td>
       <td>Access to the internal network via OpenVPN connections</td>
    </tr>
+
+   <tr><td colspan="3" height="10"></td></tr>
+
    <tr>
       <td align="left"><b>TA0002 - Execution</b></td>
       <td align="left"><b>T1059.004 - Command and Scripting Interpreter: Unix Shell</b></td>
       <td>Execution of a Unix shell via server-side PHP code injection</td>
    </tr>
+
+   <tr><td colspan="3" height="10"></td></tr>
+
    <tr>
       <td align="left"><b>TA0003 - Persistence</b></td>
       <td align="left"><b>T1505.003 - Server Software Component: Web Shell</b></td>
       <td>Storing malicious code within a server component</td>
    </tr>
+
+  <tr><td colspan="3" height="10"></td></tr>
 
   <tr>
     <td rowspan="2" align="left"><b>TA0004 - Privilege Escalation</b></td>
@@ -90,6 +97,8 @@
     <td align="left"><b>T1078.003 - Valid Accounts: Local Accounts</b></td>
     <td>valid credentials for the local user <b>robot</b></td>
   </tr>
+
+   <tr><td colspan="3" height="10"></td></tr>
 
   <tr>
     <td rowspan="3" align="left"><b>TA0006 - Credential Access</b></td>
@@ -105,6 +114,8 @@
     <td>the hash of the <b>robot</b> user's password in their home directory</td>
   </tr>
 
+  <tr><td colspan="3" height="10"></td></tr>
+
   <tr>
     <td rowspan="2" align="left"><b>TA0007 - Discovery</b></td>
     <td align="left"><b>T1046 - Network Service Discovery</b></td>
@@ -115,16 +126,24 @@
     <td>A file found with the SUID bit set</td>
   </tr>
 
+  <tr><td colspan="3" height="10"></td></tr>
+
    <tr>
       <td align="left"><b>TA0009 - Collection</b></td>
       <td align="left"><b>T1005 - Data from Local System</b></td>
       <td>The user and root flags have been collected</td>
    </tr>
+
+  <tr><td colspan="3" height="10"></td></tr>
+
    <tr>
       <td align="left"><b>TA0011 - Command and Control</b></td>
       <td align="left"><b>T1095 - Non-Application Layer Protocol</b></td>
       <td>Reverse TCP shell established via netcat</td>
    </tr>
+
+   <tr><td colspan="3" height="10"></td></tr>
+
    <tr>
       <td align="left"><b>TA0010 - Exfiltration</b></td>
       <td align="left"><b>T1048.003 - Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol</b></td>
@@ -494,7 +513,7 @@ hashcat -m 0 robot_pass.txt /usr/share/wordlists/rockyou.txt --force
  <img src="./screenshots/hashcat_bruteforce.png" alt="hashcat_bruteforce" />
 </p>
 
-### Horizontal PrivEsc
+### Horizontal PrivEsc / second flag
 
 > We use the received password and log in as `robot`:
 
@@ -508,8 +527,6 @@ uid=1002(robot) gid=1002(robot) groups=1002(robot)
 robot@ip-10-80-150-182:/usr/sbin$
 
 ```
-
-### second flag
 
 > In the user's home directory, we get the `second flag`:
 
