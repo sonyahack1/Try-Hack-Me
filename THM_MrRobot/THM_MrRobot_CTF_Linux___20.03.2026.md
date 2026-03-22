@@ -40,7 +40,7 @@
 - [Brute Force wp-login.php](#brute-force-wp-login)
 - [Theme Editor (WordPress)](#theme-editor)
 - [reverse shell (C2)](#reverse-shell)
-- [unsecured credentials / exfiltration](#unsecured-credentials)
+- [unsecured credentials / exfiltration](#unsecured-credentials--exfiltration)
 - [Brute-Force md5 hash](#brute-force-md5-hash)
 - [Horizontal PrivEsc (local account) / second flag](#horizontal-privesc--second-flag)
 - [files enumeration](#files-enumeration-suid)
