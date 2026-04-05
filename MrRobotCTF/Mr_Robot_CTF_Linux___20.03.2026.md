@@ -13,7 +13,7 @@
   </tr>
   <tr>
     <td align="left" ><b>👨‍💻 Author</b></td>
-    <td><code><br>sonyahack1</br></code></td>
+    <td><code>sonyahack1</code></td>
   </tr>
   <tr>
     <td align="left" ><b>📅 Date</b></td>
@@ -27,6 +27,19 @@
     <td align="left" ><b>📁 Category</b></td>
     <td>Web / PrivEsc / Password Attacks / Linux</td>
   </tr>
+  <tr>
+    <td align="left" ><b>🛠️ Tools</b></td>
+    <td>nmap | ffuf | curl | hashcat | netcat | python | hydra </td>
+  </tr>
+  <tr>
+    <td align="left" ><b>💀 Objectives</b></td>
+    <td>
+	<code>key-1-of-3.txt</code><br>
+	<code>key-2-of-3.txt</code><br>
+	<code>key-3-of-3.txt</code><br>
+   </td>
+  </tr>
+
 </table>
 
 </div>
