@@ -163,40 +163,7 @@
   </tbody>
 </table>
 
-<h3 align="center"> Tools Used </h3>
-
-<table border="1" cellpadding="6" cellspacing="0">
-  <tr>
-    <th>Nmap</th>
-    <th>ffuf</th>
-    <th>curl</th>
-    <th>hashcat</th>
-    <th>NetCat</th>
-    <th>Python</th>
-    <th>hydra</th>
-  </tr>
-</table>
-
-<table border="1" cellpadding="6" cellspacing="0">
-  <tr>
-    <th>🟢 Flag 1</th>
-    <td><code>073403c8a58a1f80d943455fb30724b9</code></td>
-  </tr>
-  <tr>
-    <th>🟢 Flag 2</th>
-    <td><code>822c73956184f694993bede3eb39f959</code></td>
-  </tr>
-  <tr>
-    <th>🟢 Flag 3</th>
-    <td><code>04787ddef27c3dee1ee161b21670b4e4</code></td>
-  </tr>
-</table>
-
-</div>
-
-
 <h2 align="center"> 📝 Report </h2>
-
 
 > **Important:** `Initial access` to the internal lab network was established via a provided `OpenVPN configuration file (.ovpn)`, representing a simulated access path consistent with MITRE ATT&CK technique `T1133 (External Remote Services)`. Subsequent ATT&CK mappings focus on actions performed `after internal network access was established`.
 
