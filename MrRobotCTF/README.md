@@ -5,8 +5,6 @@
 
 <h1 align="center"> TryHackMe: Mr Robot CTF </h1>
 
----
-
 <div align="center">
 
 🔎 In this engagement, the target system `Mr Robot CTF` was fully compromised.
