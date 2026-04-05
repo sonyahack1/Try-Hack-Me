@@ -1,20 +1,11 @@
 
-<div align="center">
-
 <p align="center">
   <img src="./screenshots/tryhackme-icon.svg" alt="logo" width="120" />
 </p>
 
 # TryHackMe: Mr Robot CTF
 
-### 📊 Difficulty: **Medium**
-### 📁 Category: Web / PrivEsc / Password Attacks / Linux
-
-</div>
-
 ---
-
-<div>
 
 🔎 In this engagement, the target system `Mr Robot CTF` was fully compromised.
 
@@ -29,5 +20,3 @@ Subsequent enumeration uncovered a file within the `robot` user's home directory
 cracked offline, enabling access to the local `robot` account and retrieval of the `second flag`.
 
 Further privilege escalation was achieved by identifying an `nmap` executable with the `SUID bit set`. This binary was then leveraged to obtain a root shell.
-
-</div>
