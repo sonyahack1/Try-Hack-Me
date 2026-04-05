@@ -1,7 +1,9 @@
 
 <div align="center">
 
-<img src="./screenshots/tryhackme-icon.svg" alt="logo" width="120"/>
+<p align="center">
+  <img src="./screenshots/tryhackme-icon.svg" alt="logo" width="120" />
+</p>
 
 # TryHackMe: Mr Robot CTF
 
