@@ -6,7 +6,7 @@
 ---
 <div align="center">
 
-<table border="1" cellpadding="6" cellspacing="0">
+<table width="100%" border="1" cellpadding="6" cellspacing="0">
   <tr>
     <td align="left" ><b>🎯 Target</b></td>
     <td>Mr Robot CTF</td>
