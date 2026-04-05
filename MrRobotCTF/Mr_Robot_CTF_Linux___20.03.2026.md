@@ -163,6 +163,8 @@
   </tbody>
 </table>
 
+</div>
+
 <h2 align="center"> 📝 Report </h2>
 
 > **Important:** `Initial access` to the internal lab network was established via a provided `OpenVPN configuration file (.ovpn)`, representing a simulated access path consistent with MITRE ATT&CK technique `T1133 (External Remote Services)`. Subsequent ATT&CK mappings focus on actions performed `after internal network access was established`.
