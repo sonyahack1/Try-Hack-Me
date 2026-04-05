@@ -3,7 +3,6 @@
   <img src="./screenshots/mrrobot_logo.png" alt="mrrobot_logo"/>
 </p>
 
----
 <div align="center">
 
 <table width="100%" border="1" cellpadding="6" cellspacing="0">
@@ -44,7 +43,6 @@
 
 </div>
 
----
 ## Attack Flow
 
 - [openVPN](#openvpn)
@@ -58,8 +56,6 @@
 - [Horizontal PrivEsc (local account) / second flag](#horizontal-privesc--second-flag)
 - [files enumeration](#files-enumeration-suid)
 - [Vertical PrivEsc (SUID) / root flag](#vertical-privesc--root-flag)
-
----
 
 <h2 align="center"> ⚔️ Attack Implemented  </h2>
 
