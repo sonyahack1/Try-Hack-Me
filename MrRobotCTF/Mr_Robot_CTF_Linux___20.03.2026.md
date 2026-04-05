@@ -48,7 +48,7 @@
 
 ---
 
-## ⚔️  Attack Implemented {.centered}
+<h2 align="center"> ⚔️  Attack Implemented {</h2>
 
 <div align="center">
 
