@@ -243,7 +243,7 @@ ffuf -u 'http://10.81.141.190/FUZZ' -w /usr/share/wordlists/seclists/Discovery/W
 > on a web server. Essentially, it enables interaction with the server similar to a file system. If misconfigured, this extension may allow an attacker to upload arbitrary files to the server,
 > potentially leading to `RCE (Remote Code Execution)`.
 
-### Remote Code Execution (WebDav)
+### RCE (WebDav)
 
 > To gain access to the system, we will generate a `.php` file using `msfvenom` in order to establish a reverse connection back to our machine.
 
