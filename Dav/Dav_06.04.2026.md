@@ -171,8 +171,8 @@ sudo nmap -sVC -vv -p"$open_ports" "$ip"
 
 > The script operates in `two stages`:
 
-- 1) it first identifies open ports on the target;
-- 2) and then enumerates the services running on those ports.
+- 1 it first identifies open ports on the target;
+- 2 and then enumerates the services running on those ports.
 
 ```bash
 
