@@ -28,7 +28,7 @@
   </tr>
   <tr>
     <td align="left" ><b>🛠️ Tools</b></td>
-    <td> nmap | ffuf | curl </td>
+    <td> nmap | ffuf | curl | msfvenom </td>
   </tr>
   <tr>
     <td align="left" ><b>💀 Objectives</b></td>
