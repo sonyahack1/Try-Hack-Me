@@ -48,8 +48,8 @@
 - [scanning](#scanning)
 - [fuzzing](#fuzzing)
 - [webdav](#webdav)
-- [RCE (webdav)](#reverse-shell)
-- [privilege escalation (sudo)](#privilege-escalation)
+- [RCE (webdav)](#rce-webdav)
+- [privilege escalation (sudo)](#privilege-escalation-sudo)
 
 <h2 align="center"> ⚔️ Attack Implemented  </h2>
 
