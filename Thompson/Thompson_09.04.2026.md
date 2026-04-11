@@ -45,11 +45,11 @@
 ## Attack Flow
 
 - [Initial Access](#initial-access)
-- [Discovery (nmap)](#discovery)
+- [Discovery (nmap)](#discovery-nmap)
 - [Credential Access](#credential-access)
 - [foothold](#foothold)
-- [Discovery (process)](#)
-- [Privilege Escalation (cron)](#)
+- [Discovery (process)](#discovery-process)
+- [Privilege Escalation (cron)](#privilege-escalation-cron)
 
 <h2 align="center"> ⚔️ Attack Implemented  </h2>
 
