@@ -44,10 +44,10 @@
 
 ## Attack Flow
 
-- [Discovery (nmap / ffuf)](#)
-- [Credential Access (php wrapper)](#)
-- [sql injection (foothold)](#)
-- [Privilege Escalation](#)
+- [Discovery (nmap / ffuf)](#discovery-nmap--ffuf)
+- [Credential Access (php wrapper)](#credential-access-php-wrapper)
+- [sql injection (foothold)](#sql-injection-foothold)
+- [Privilege Escalation](#privilege-escalation)
 
 <h2 align="center"> ⚔️ Attack Implemented  </h2>
 
