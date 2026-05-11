@@ -32,6 +32,7 @@
   </tr>
   <tr>
     <td align="left" ><b>💀 Objectives</b></td>
+
     <td>
 	<code>user flag</code><br>
 	<code>root flag</code><br>
@@ -44,10 +45,10 @@
 
 ## Attack Flow
 
-- [Discovery](#)
-- [CVE-2023-30258](#)
-- [proof on concept / foothold](#)
-- [privilege escalation](#)
+- [Discovery](#discovery)
+- [CVE-2023-30258](#cve-2023-30258)
+- [proof on concept / foothold](#proof-on-concept--foothold)
+- [privilege escalation](#privilege-escalation)
 
 <h2 align="center"> ⚔️ Attack Implemented  </h2>
 
