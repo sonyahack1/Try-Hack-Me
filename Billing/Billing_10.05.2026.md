@@ -8,7 +8,7 @@
 <table width="100%" border="1" cellpadding="6" cellspacing="0">
   <tr>
     <td align="left" ><b>🎯 Target</b></td>
-    <td>Billing - <code>https://tryhackme.com/room/billing</code></td>
+    <td> Billing - <code>https://tryhackme.com/room/billing </code></td>
   </tr>
   <tr>
     <td align="left" ><b>👨‍💻 Author</b></td>
@@ -32,7 +32,6 @@
   </tr>
   <tr>
     <td align="left" ><b>💀 Objectives</b></td>
-
     <td>
 	<code>user flag</code><br>
 	<code>root flag</code><br>
