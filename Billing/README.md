@@ -7,7 +7,7 @@
 
 <h3 align="center">
 
-Attack Implementation Report for the Billing System
+Attack Implementation Report for the <code>Billing</code> System:
 
 </h3>
 
@@ -15,8 +15,8 @@ Attack Implementation Report for the Billing System
 
 <div>
 
-We investigate the MagnusBilling VoIP/billing platform and identify an unauthenticated Command Injection vulnerability (CVE-2023-30258). We analyze how the democ parameter leads to arbitrary shell command
-execution through the PHP exec() function. After confirming the presence of remote code execution (RCE) via blind command execution, we obtain initial access to the system.
+We investigate the <code>MagnusBilling</code> VoIP/billing platform and identify an unauthenticated <code>Command Injection</code> vulnerability (<code>CVE-2023-30258</code>). We analyze how the democ parameter leads
+to arbitrary shell command execution through the PHP <code>exec()</code> function. After confirming the presence of <code>remote code execution (RCE)</code> via blind command execution, we obtain initial access to the system.
 
 </div>
 
@@ -24,9 +24,9 @@ execution through the PHP exec() function. After confirming the presence of remo
 
 <div>
 
-After establishing access to the system, we perform local enumeration and identify an insecure sudoers configuration for the asterisk user, allowing the fail2ban-client interface to be managed as any user on the system.
-We then examine the internal architecture and operational logic of Fail2Ban and abuse the ability to modify the actionban parameter within the iptables-multiport action to execute arbitrary commands with root privileges,
-ultimately resulting in full system compromise.
+After establishing access to the system, we perform local enumeration and identify an insecure <code>sudoers configuration</code> for the asterisk user, allowing the <code>fail2ban-client</code> interface to be managed as
+any user on the system. We then examine the internal architecture and operational logic of <code>fail2ban</code> and abuse the ability to modify the <code>actionban</code> parameter within the <code>iptables-multiport</code>
+action to execute arbitrary commands with root privileges, ultimately resulting in full system compromise.
 
 </div>
 
