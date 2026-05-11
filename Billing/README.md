@@ -7,7 +7,7 @@
 
 <h3 align="center">
 
-Отчет по реализации атаки на систему <code>Billing</code>
+Attack Implementation Report for the Billing System
 
 </h3>
 
@@ -15,8 +15,8 @@
 
 <div>
 
-Исследуем VoIP/billing систему <code>MagnusBilling</code> и обнаружим unauthenticated <code>Command Injection</code> (<code>CVE-2023-30258</code>). Разберемся, каким образом параметр <code>democ</code> приводит к выполнению
-произвольных shell команд через PHP <code>exec()</code>. Подтвердим наличие <code>RCE</code> через blind command execution и получим первоначальный доступ в систему.
+We investigate the MagnusBilling VoIP/billing platform and identify an unauthenticated Command Injection vulnerability (CVE-2023-30258). We analyze how the democ parameter leads to arbitrary shell command
+execution through the PHP exec() function. After confirming the presence of remote code execution (RCE) via blind command execution, we obtain initial access to the system.
 
 </div>
 
@@ -24,9 +24,9 @@
 
 <div>
 
-После закрепления в системе проведем локальную разведку и обнаружим небезопасную конфигурацию <code>sudoers</code> для пользователя <code>asterisk</code>, позволяющую управлять интерфейсом <code>fail2ban-client</code> от имени
-любого пользователя. Разберемся во внутреннем устройстве инструмента <code>fail2ban</code>, механизме его работы и используем возможность изменения параметра <code>actionban</code> у action <code>iptables-multiport</code> для
-выполнения произвольных команд с <code>root</code> привилегиями, тем самым полностью скомпрометировав систему.
+After establishing access to the system, we perform local enumeration and identify an insecure sudoers configuration for the asterisk user, allowing the fail2ban-client interface to be managed as any user on the system.
+We then examine the internal architecture and operational logic of Fail2Ban and abuse the ability to modify the actionban parameter within the iptables-multiport action to execute arbitrary commands with root privileges,
+ultimately resulting in full system compromise.
 
 </div>
 
